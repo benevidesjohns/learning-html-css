@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+#header-area {
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#title-area,
+#navbar-area {
+    padding: 10px;
+}
+
+/* Header formatting */
+a {
+    text-decoration: none;
+    padding: 10px 12px;
+}
+
+a:link,
+a:visited {
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: white;
+    color: #f7b600;
+}
+
+/* General formatting */
+
+h1 {
+    color: #4e4e4e;
+    font-size: 5vh;
+}
+
+.white {
+    color: white;
+}
