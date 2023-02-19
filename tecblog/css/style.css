@@ -1,13 +1,34 @@
+/* General formatting */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-size: 1em;
-    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
-    background: #e6e6e6;
+h1 {
+    color: #4e4e4e;
+    font-size: 5vh;
 }
+
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #4e4e4e;
+}
+
+img {
+    height: 405px;
+    width: 620px;
+    margin: 10px 0;
+}
+
+.white {
+    color: white;
+}
+
+/* Header formatting */
 
 #header-area {
     background: #f7b600;
@@ -20,30 +41,111 @@ body {
     padding: 10px;
 }
 
-/* Header formatting */
-a {
+#navbar-area a {
     text-decoration: none;
     padding: 10px 12px;
 }
 
-a:link,
-a:visited {
+#navbar-area a:link,
+#navbar-area a:visited {
     color: white;
     border-radius: 5px;
 }
 
-a:hover {
+#navbar-area a:hover {
     background: white;
     color: #f7b600;
 }
 
-/* General formatting */
+/* Body formatting */
 
-h1 {
-    color: #4e4e4e;
-    font-size: 5vh;
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
 }
 
-.white {
+#body-area {
+    background: white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#posts-area,
+.current-posts-area {
+    background: white;
+    margin-top: 15px;
+}
+
+#posts-area {
+    width: 660px;
+    float: left;
+}
+
+.current-posts-area {
+    width: 240px;
+    float: right;
+}
+
+.title-current-posts {
+    background: #CCC;
+    padding: 10px;
+    margin: 15px;
+}
+
+.subtitle-posts {
+    font-size: 0.8em;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.post {
+    padding: 15px;
+}
+
+.current-posts-area .description-posts {
+    margin: 15px;
+}
+
+.description-posts a:link,
+.description-posts a:visited {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+.description-posts a:hover {
+    text-decoration: underline;
+}
+
+.separator-posts {
+    border-bottom: 1px solid #CCC;
+}
+
+.current-posts-area .separator-posts {
+    margin: 10px 0;
+}
+
+#categories {
+    padding: 0 15px;
+}
+
+#categories a:link,
+#categories a:visited h3 {
+    color: #f7b600;
+    text-decoration: none;
+}
+
+#categories a:hover h3 {
+    background: #f7b600;
     color: white;
+}
+
+/* Footer formatting */
+
+#footer-area {
+    clear: both;
+    background: #CCC;
+    padding: 15px;
+    text-align: center;
 }
