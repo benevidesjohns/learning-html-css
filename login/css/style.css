@@ -1,6 +1,6 @@
 body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #643d87 url(assets/background.jpg) no-repeat top center;
+    background: #643d87 url(/assets/background.jpg) no-repeat top center;
     background-size: 1600px 800px;
 }
 
@@ -38,11 +38,11 @@ input#password {
 }
 
 input#email {
-    background-image: url(assets/user-icon.png);
+    background-image: url(/assets/user-icon.png);
 }
 
 input#password {
-    background-image: url(assets/padlock-icon.png);
+    background-image: url(/assets/padlock-icon.png);
 }
 
 input#submit {
