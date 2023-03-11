@@ -55,9 +55,77 @@ ul#navigation li a:hover {
 
 body.home #navigation a#home,
 body.brazil #navigation a#brazil,
-body.international #navigation a#international,
 body.photos #navigation a#photos {
     color: white;
     background: #de003e;
     cursor: text;
+}
+
+#content-area {
+    margin-top: 60px;
+    background: black;
+}
+
+#primary {
+    width: 270px;
+    float: left;
+    /*(180)+15px right - divider*/
+}
+
+#three-columns #primary {
+    width: 270px;
+    margin: 0 0 20px 195px;
+}
+
+#two-columns #primary {
+    width: 555px;
+    margin: 0 0 20px 195px;
+}
+
+#one-column #primary {
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+#secondary {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#side {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#footer-area {
+    background-color: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+#footer {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+}
+
+.box h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: white;
+    padding: 5px;
+}
+
+.box {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../assets/background-box.png);
+}
+
+.box-content {
+    background: white;
+    padding: 5px;
+    margin-top: 5px
 }
