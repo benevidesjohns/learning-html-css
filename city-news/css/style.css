@@ -129,3 +129,39 @@ body.photos #navigation a#photos {
     padding: 5px;
     margin-top: 5px
 }
+
+#side ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#side ul a:hover {
+    background: #f9f9f9 url(../assets/highlighter.png) no-repeat left;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+}
