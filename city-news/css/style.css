@@ -63,7 +63,6 @@ body.photos #navigation a#photos {
 
 #content-area {
     margin-top: 60px;
-    background: black;
 }
 
 #primary {
@@ -160,8 +159,62 @@ input {
 
 input.submit {
     width: 80px;
+    padding: 5px;
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
-    padding: 5px;
+    cursor: pointer;
+}
+
+img.main-image {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3:first-child {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding: 3px;
+    display: inline;
+
+}
+
+#primary h3:first-child {
+    background: #b10333;
+}
+
+#secondary h3:first-child {
+    background: #b10333;
+    color: white;
+}
+
+#news-list li a {
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+#news-list li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+#news-list li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#news-list li a img {
+    float: left;
+    margin: 5px;
+}
+
+#news-list li a h3 {
+    color: #3e7ab9;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+#news-list li a p {
+    color: black;
 }
