@@ -5,4 +5,59 @@
 
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(/assets/background.png) repeat-x;
+}
+
+#main {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 180px;
+    background: url(/assets/map.png) no-repeat right top;
+}
+
+#logo {
+    width: 152px;
+    height: 66px;
+    background: url(/assets/logo.png ) no-repeat center;
+    padding-top: 50px;
+    text-indent: -2000px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navigation,
+ul#navigation li {
+    background: #b10333;
+    float: left;
+}
+
+ul#navigation li a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    color: white;
+    background: url(../assets/divider.png) no-repeat left;
+}
+
+ul#navigation .first a {
+    background: none;
+}
+
+ul#navigation li a:hover {
+    color: red;
+}
+
+body.home #navigation a#home,
+body.brazil #navigation a#brazil,
+body.international #navigation a#international,
+body.photos #navigation a#photos {
+    color: white;
+    background: #de003e;
+    cursor: text;
 }
