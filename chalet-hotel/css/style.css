@@ -12,5 +12,99 @@ body {
 }
 
 #container {
-    border: 1px solid red;
+    background: #ede9cc;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+
+#top {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;
+}
+
+#logo-area {
+    position: absolute;
+    background: url(/assets/topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+
+.logo a {
+    background: url(/assets/logo.png) no-repeat;
+    width: 150px;
+    height: 66px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+
+    text-indent: -9000px;
+}
+
+#menu-area {
+    position: absolute;
+    background: url(/assets/topo-imagem-lateral.png) no-repeat;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    z-index: 2;
+}
+
+#menu-content,
+#menu {
+    margin: 15px 15px 15px 90px;
+}
+
+#menu-locations {
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    padding: 5px 0;
+    font-size: 0.7em;
+    color: #8b8448;
+}
+
+a {
+    text-decoration: none;
+}
+
+#menu-locations a {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+#menu-locations span {
+    line-height: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul {
+    float: left;
+}
+
+#menu ul li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+#menu ul li a:hover {
+    background: #fdf6be;
+}
+
+img.evidence {
+    width: 226px;
+    height: 164x;
+    float: right;
 }
