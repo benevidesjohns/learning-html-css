@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: url(/assets/bg-container.png);
     margin: 0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -100,11 +100,72 @@ ul {
 }
 
 #menu ul li a:hover {
-    background: #fdf6be;
+    background: #e0dcbb;
 }
 
 img.evidence {
     width: 226px;
     height: 164x;
     float: right;
+}
+
+/* Contents area */
+
+#main-area {
+    background: #eee9c6 url(/assets/bg-area-principal.png) top left repeat-x;
+    float: left;
+    width: 50%;
+}
+
+#side-area {
+    float: right;
+    width: 50%;
+    background: #ddd9bd url(/assets/bg-area-lateral.png) top left repeat-x;
+}
+
+.content-area {
+    margin: 0 auto;
+    width: 90%;
+    height: 350px;
+    padding: 20px;
+}
+
+#footer {
+    background: #fff url(/assets/bg-rodape.png) repeat-x top;
+    clear: both;
+    color: #7d7640;
+    padding-top: 10px;
+}
+
+h2 {
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 0 5px 10px 0;
+}
+
+p {
+    font-size: 1em;
+}
+
+.content img,
+.content-without-border img {
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.content-without-border {
+    margin: 5px;
+    float: left;
+}
+
+.content {
+    margin: 5px;
+    float: left;
+    border-bottom: 1px solid #fff5b0;
+}
+
+.content-without-border:hover,
+.content:hover {
+    background: #eee9c6;
+    cursor: pointer;
 }
