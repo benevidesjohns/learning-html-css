@@ -1,0 +1,16 @@
+/* Site Structure */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(/assets/bg.png);
+    margin: 15px;
+}
+
+#container {
+    border: 1px solid red;
+}
