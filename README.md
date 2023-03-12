@@ -11,3 +11,7 @@ Practice 2 - Login Layout
 Practice 3 - City News Layout
 
 ![image](https://user-images.githubusercontent.com/84235201/224512865-5d04ced4-b8ef-4e1c-acfe-c6cdb744e85c.png)
+
+Practice 4 - Chalet Hotel Layout
+
+![image](https://user-images.githubusercontent.com/84235201/224574953-18045806-ee96-4355-bcee-3899242a9214.png)
