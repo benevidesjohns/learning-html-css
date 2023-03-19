@@ -15,3 +15,8 @@ Practice 3 - City News Layout
 Practice 4 - Chalet Hotel Layout
 
 ![image](https://user-images.githubusercontent.com/84235201/224574953-18045806-ee96-4355-bcee-3899242a9214.png)
+
+Practice 5 - Parallax
+
+https://user-images.githubusercontent.com/84235201/226204350-5b12c5d7-fa2d-437d-bdda-9a74ceb3bf03.mp4
+
